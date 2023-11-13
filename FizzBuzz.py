@@ -7,7 +7,7 @@ while True:
         print('Enter a number')
 
 for i in range(1, max_number):
-    if i == 15:
+    if i %15 == 0:
         print('FizzBuzz', end=' ')
     elif i%3 == 0:
         print('fizz', end=' ')
